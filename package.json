@@ -18,10 +18,12 @@
   },
   "homepage": "https://github.com/yvlavrov/NODE_mysql#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4",
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "sequelize": "^6.3.4"
   }
 }
