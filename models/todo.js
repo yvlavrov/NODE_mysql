@@ -9,8 +9,8 @@ const todo = sequelize.define("Todo", {
     type: Sequelize.INTEGER,
   },
   done: { type: Sequelize.BOOLEAN, allowNull: false },
-  title: { title: Sequelize.STRING, allowNull: false },
-  date: { title: Sequelize.DATE, allowNull: false },
+  title: { type: Sequelize.STRING, allowNull: false },
+  // date: { type: Sequelize.DATE, allowNull: false },
 });
 
 module.exports = todo;

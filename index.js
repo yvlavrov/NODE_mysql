@@ -7,6 +7,9 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, "public")));
 
+// для обработки body в запросе
+app.use(express.json());
+
 app.use("/api/todo", todoRoutes);
 
 app.use((req, res, next) => {
